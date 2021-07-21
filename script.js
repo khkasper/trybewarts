@@ -15,14 +15,11 @@ function alertLogin() {
 btnlogin.addEventListener('click', alertLogin);
 
 btnSubmit.disabled = true;
-function checkSelected(event) {
-  // eslint-disable-next-line sonarjs/no-duplicate-string
-  if (event.target.classList.contains('botao-ativado')) {
-    event.target.classList.remove('botao-ativado');
-    btnSubmit.disabled = true;
-  } else {
-    event.target.classList.add('botao-ativado');
+function checkSelected() {
+  if (checkAgree.checked === true) {
     btnSubmit.disabled = false;
+  } else {
+    btnSubmit.disabled = true;
   }
 }
 
