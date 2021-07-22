@@ -60,7 +60,7 @@ function subjectSlct() {
   let sbjSlct = '';
   for (let i = 0; i < subjectOpt.length; i += 1) {
     if (subjectOpt[i].checked) {
-      sbjSlct += `${subjectOpt[i].value} `;
+      sbjSlct += `${subjectOpt[i].value}, `;
     }
   }
   return sbjSlct;
