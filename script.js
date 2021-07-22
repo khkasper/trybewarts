@@ -39,12 +39,13 @@ checkAgree.addEventListener('click', checkSelected);
 
 function contador() {
   const lenText = document.querySelector('#textarea').textLength;
-  counter.innerText = 500 - lenText;
+  const charLeft = 500 - lenText;
+  counter.innerText = `Restam ${charLeft} caracteres.`;
 }
 
 textLen.addEventListener('keyup', contador);
 
-// Percorrer as opções de família e retornar a marcada.
+// Percorrer as opções de família e se alguma estiver marcada, retornar esta opção.
 
 function familySlct() {
   for (let i = 0; i < familyOpt.length; i += 1) {
@@ -54,7 +55,7 @@ function familySlct() {
   }
 }
 
-// Percorrer as opções de matérias e armazenar todas marcadas.
+// Percorrer as opções de matérias e se alguma estiver marcada, armazenar todas marcadas.
 
 function subjectSlct() {
   let sbjSlct = '';
@@ -66,7 +67,7 @@ function subjectSlct() {
   return sbjSlct;
 }
 
-// Percorrer as opções de avaliação e retornar a marcada.
+// Percorrer as opções de avaliação e se alguma estiver marcada, retornar esta opção.
 
 function rateSlct() {
   for (let i = 0; i < rateOpt.length; i += 1) {
