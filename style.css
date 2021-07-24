@@ -57,6 +57,11 @@ main {
   padding: 10px;
 }
 
+h2 {
+  margin: 25px 0;
+  font-size: 50px;
+}
+
 #evaluation-form h2 {
   text-align: center;
 }
@@ -123,7 +128,7 @@ hr {
   align-items: center;
 }
 
-.qual-conteudo{
+.qual-conteudo {
   width: 50%;
   justify-content: space-between;
   margin-bottom: 20px;
@@ -149,11 +154,6 @@ hr {
 
 span {
   margin: 5px;
-}
-
-h2 {
-  margin: 25px 0;
-  font-size: 50px;
 }
 
 .div-textarea {
@@ -198,7 +198,6 @@ button {
 }
 
 #submit-btn {
-
   align-items: center;
   justify-content: center;
   margin: auto;
@@ -277,7 +276,7 @@ button {
 
   .header {
     flex-direction: column;
-   }
+  }
 
   #trybewarts-header-title {
     display: none;
