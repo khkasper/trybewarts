@@ -1,3 +1,6 @@
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 # Habilidades
 
@@ -52,3 +55,18 @@
 - [x] 20 - Crie um contador com o ID 'counter' contendo o número de caracteres disponíveis no textarea, variando de 500 até 0, que deverá ser atualizado a medida que algo for digitado na textarea
 
 - [x] 21 - Faça com que ao clicar no botão 'Enviar', o conteúdo do formulário seja substituído pelas informações preenchidas
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://br.linkedin.com/in/kristiano-kasper"><img src="https://avatars.githubusercontent.com/u/85760820?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kristiano Kasper</b></sub></a><br /><a href="https://github.com/khkasper/trybewarts/commits?author=khkasper" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/henrique-junqueira-braga/"><img src="https://avatars.githubusercontent.com/u/84282335?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Henrique Braga</b></sub></a><br /><a href="https://github.com/khkasper/trybewarts/commits?author=henriquejbraga" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
